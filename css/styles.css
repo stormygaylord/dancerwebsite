@@ -68,3 +68,30 @@ span {
     font-style: italic;
     text-decoration: underline;
 }
+
+.ballerina,
+.number1 {
+    width: 45px;
+    display: inline-block;
+    margin: 30px 0 0 30px;
+}
+
+.ballerina {
+    animation: pirouette 1.5s linear infinite;
+}
+
+/*===================================================================================
+                        Keyframes
+===================================================================================*/
+
+@keyframes pirouette {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(-180deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+}
