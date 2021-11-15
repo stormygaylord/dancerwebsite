@@ -10,3 +10,10 @@
 body {
     background-color: lightpink;
 }
+
+header {
+    background: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
