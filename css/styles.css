@@ -17,3 +17,28 @@ header {
     width: 100%;
     top: 0;
 }
+
+main {
+    margin-top: 150px;
+}
+
+h1 {
+    color: #d24f63;
+    margin: 0 auto;
+    max-width: 30%;
+    font-family: cursive;
+    font-size: 50px;
+    padding: 10px;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+nav ul li {
+    display: inline-block;
+    background: white;
+    width: 24%;
+    margin-bottom: 5px;
+}
