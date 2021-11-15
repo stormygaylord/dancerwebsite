@@ -15,6 +15,7 @@ header {
     background: black;
     position: fixed;
     width: 100%;
+    height: 150px;
     top: 0;
 }
 
@@ -24,21 +25,46 @@ main {
 
 h1 {
     color: #d24f63;
-    margin: 0 auto;
-    max-width: 30%;
     font-family: cursive;
     font-size: 50px;
     padding: 10px;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
 }
 
 nav {
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 500px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    color: white;
+    background: pink;
+    transition: .3s;
 }
 
 nav ul li {
     display: inline-block;
-    background: white;
-    width: 24%;
-    margin-bottom: 5px;
+    width: 15%;
+    margin: 5px auto;
+    padding: 10px 20px;
+}
+
+/*===================================================================================
+                        Home Page Styling
+===================================================================================*/
+
+span {
+    font-style: italic;
+    text-decoration: underline;
 }
